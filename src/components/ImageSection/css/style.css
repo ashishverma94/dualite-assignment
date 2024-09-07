@@ -1,0 +1,55 @@
+.wrapper-div-1133 {
+  position: relative;
+  max-width: 1242px;
+  margin: auto;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.nodeBg-1133 {
+  object-fit: cover;
+  opacity: 1;
+  background-image: url("../images/image0.png");
+  top: 0px;
+  left: 0px;
+}
+.craft-your-idea-1134-0 {
+  font-size: 53px;
+
+  line-height: 53.46000051498413px;
+
+  font-family: Poppins;
+  font-weight: 500;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.whether-its-a-s-1135-0 {
+  font-size: 13px;
+
+  line-height: 18.19999933242798px;
+
+  font-family: Poppins;
+  font-weight: 300;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.preorder-now-1137-0 {
+  font-size: 12.47px;
+
+  line-height: 13.337560658190569px;
+
+  font-family: Poppins;
+  font-weight: 500;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: nowrap;
+  color: #ffffffff;
+}
