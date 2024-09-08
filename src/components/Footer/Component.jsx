@@ -10,13 +10,13 @@ import images from "./data/images";
 const Footer = ({ text1 = texts.text1, text2 = texts.text2 }) => {
   return (
     <div className="wrapper-div-1138 mt-[40px] relative m-auto p-[0px] box-border">
-      <div className=" max-w-[1242px] w-full box-border min-h-[282px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-wrap justify-center items-center gap-[67px] p-[0px_0px_0px__0px] bg-[#f0f0f0ff]  ">
+      <div className=" max-w-[1242px] w-full box-border md:min-h-[282px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-wrap justify-center items-center gap-1 md:gap-[67px] p-[0px_0px_0px__0px] bg-[#f0f0f0ff]  ">
         {/* Frame 501 */}
-        <section className=" max-w-[248px] w-full box-border min-h-[115px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[25px] p-[0px_0px_0px__0px]  ">
-          <div className=" max-w-[191px] w-full box-border min-h-[24px] opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
+        <section className=" max-w-[248px] w-full box-border md:min-h-[115px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-3 md:gap-[25px] p-[0px_0px_0px__0px]  ">
+          <div className=" max-w-[191px] w-full box-border md:min-h-[24px] opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
             <span className="urban-nest-1140-0 ">{text1}</span>
           </div>
-          <div className=" max-w-[248px] w-full box-border min-h-[66px] opacity-[1] z-[1]  rotate-[0deg]   text-left leading-[0px]  ">
+          <div className=" max-w-[248px] w-full box-border md:min-h-[66px] opacity-[1] z-[1]  rotate-[0deg]   text-left leading-[0px]  ">
             <span className="transform-your--1141-0 ">{text2}</span>
           </div>
         </section>

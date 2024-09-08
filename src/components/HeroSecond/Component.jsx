@@ -13,7 +13,7 @@ const HeroSecond = ({
   image3 = images.image3,
 }) => {
   return (
-    <div className="wrapper-div-152 relative m-auto p-[0px] box-border">
+    <div className="wrapper-div-152 px-3 relative m-auto box-border">
       <div className=" max-w-[1242px] w-full box-border min-h-[666px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-wrap justify-center items-center gap-[10px] p-[0px_0px_0px__0px]  ">
         <div className=" w-[616px] max-w-[100%] min-h-[666px] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden rounded-tl-[29px] rounded-tr-[29px] rounded-br-[29px] rounded-bl-[29px]  ">
           <img

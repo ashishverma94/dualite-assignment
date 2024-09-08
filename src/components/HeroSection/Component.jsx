@@ -21,43 +21,43 @@ const Hero = ({
   text10 = texts.text10,
 }) => {
   return (
-    <div className="wrapper-div-124 relative m-auto p-[0px] box-border">
-      <div className=" max-w-[1242px] w-full box-border min-h-[717px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-wrap justify-center items-center gap-[50px] p-[40px_0px_40px__0px]  ">
+    <div className="wrapper-div-124 px-4  md:px-2 relative m-auto p-[0px] box-border">
+      <div className=" max-w-[1242px] w-full  box-border min-h-[717px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-wrap justify-center items-center gap-[50px] p-[40px_0px_40px__0px]  ">
         {/* Frame 701 */}
-        <section className=" max-w-[693px] w-full box-border min-h-[545px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[63px] p-[0px_0px_0px__0px]  ">
-          <div className=" max-w-[693px] w-full box-border min-h-[405px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-col flex-nowrap justify-end items-start gap-[25px] p-[0px_0px_0px__0px]  ">
-            <div className=" max-w-[693px] w-full box-border min-h-[195px] opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
-              <span className="elevate-your-sp-127-0 ">{text1}</span>
+        <section className=" w-full  box-border min-h-[545px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[63px] p-[0px_0px_0px__0px]  ">
+          <div className=" w-full box-border opacity-[1] z-[0]  rotate-[0deg]   flex flex-col flex-nowrap justify-end items-start gap-[25px] p-[0px_0px_0px__0px]  ">
+            <div className=" w-full box-border opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
+              <span className="elevate-your-sp-127-0 text-[30px] md:text-[42px] ">{text1}</span>
             </div>
-            <div className=" max-w-[693px] w-full box-border min-h-[112px] opacity-[1] z-[1]  rotate-[0deg]   text-left leading-[0px]  ">
+            <div className="  w-full box-border opacity-[1] z-[1]  rotate-[0deg]   text-left leading-[0px]  ">
               <span className="discover-the-be-128-0 ">{text2}</span>
             </div>
-            <div className=" max-w-[313px] w-full box-border min-h-[48px] opacity-[1] z-[2]  rotate-[0deg]   flex flex-nowrap justify-start items-end gap-[64px] p-[0px_0px_0px__0px]  ">
-              <div className=" max-w-[131px] w-full box-border min-h-[48px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-nowrap justify-center items-center gap-[10px] p-[10px_0px_10px__0px] rounded-tl-[9px] rounded-tr-[9px] rounded-br-[9px] rounded-bl-[9px] bg-[#3c3228ff]  ">
+            <div className=" w-full box-border opacity-[1] z-[2]  rotate-[0deg]   flex flex-nowrap justify-start items-end gap-[64px] p-[0px_0px_0px__0px]  ">
+              <div className=" max-w-[131px] w-full box-border  opacity-[1] z-[0]  rotate-[0deg]   flex flex-nowrap justify-center items-center gap-[10px] p-[10px_0px_10px__0px] rounded-tl-[9px] rounded-tr-[9px] rounded-br-[9px] rounded-bl-[9px] bg-[#3c3228ff]  ">
                 <div className=" max-w-[89px] w-full box-border min-h-[28px] opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
                   <span className="shop-now-131-0 ">{text3}</span>
                 </div>
               </div>
-              <div className=" max-w-[118px] w-full box-border min-h-[28px] opacity-[1] z-[1]  rotate-[0deg]   text-left leading-[0px]  ">
+              <div className=" w-full box-border min-h-[28px] opacity-[1] z-[1]  rotate-[0deg]   text-left leading-[0px]  ">
                 <span className="watch-demo-132-0 ">{text4}</span>
               </div>
             </div>
           </div>
-          <div className=" max-w-[506px] w-full box-border min-h-[77px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-wrap justify-center items-center gap-[38px] p-[0px_0px_0px__0px]  ">
-            <div className=" max-w-[124px] w-full box-border min-h-[77px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[-20px] p-[0px_0px_0px__0px]  ">
-              <div className=" max-w-[95px] w-full box-border min-h-[53px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-nowrap justify-center items-center gap-[10px] p-[10px_0px_10px__0px]  ">
+          <div className=" flex-col  md:flex-row w-full box-border opacity-[1] z-[1]  rotate-[0deg]   flex flex-wrap justify-start items-center gap-[15px] md:gap-[30px] p-[0px_0px_0px__0px]  ">
+            <div className=" max-w-[124px] w-full box-border opacity-[1] z-[0]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[-20px] p-[0px_0px_0px__0px]  ">
+              <div className=" max-w-[95px] w-full box-border opacity-[1] z-[0]  rotate-[0deg]   flex flex-nowrap justify-center items-center gap-[10px]   ">
                 <div className=" max-w-[75px] w-full box-border min-h-[33px] opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
                   <span className="c-2500-136-0 ">{text5}</span>
                 </div>
               </div>
-              <div className=" max-w-[124px] w-full box-border min-h-[44px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-nowrap justify-center items-center gap-[10px] p-[10px_0px_10px__0px]  ">
-                <div className=" max-w-[104px] w-full box-border min-h-[24px] opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
+              <div className=" max-w-[124px] w-full box-border min-h-[44px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-nowrap justify-center items-center gap-[10px]   ">
+                <div className=" max-w-[104px]  w-full box-border min-h-[24px] opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
                   <span className="unique-styles-138-0 ">{text6}</span>
                 </div>
               </div>
             </div>
-            <div className=" max-w-[163px] w-full box-border min-h-[77px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[-20px] p-[0px_0px_0px__0px]  ">
-              <div className=" max-w-[96px] w-full box-border min-h-[53px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-nowrap justify-center items-center gap-[10px] p-[10px_0px_10px__0px]  ">
+            <div className=" max-w-[124px] w-full box-border min-h-[77px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[-20px] p-[0px_0px_0px__0px]  ">
+              <div className=" max-w-[96px] w-full box-border min-h-[33px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-nowrap justify-center items-center gap-[10px]   ">
                 <div className=" max-w-[76px] w-full box-border min-h-[33px] opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
                   <span className="c-3000-141-0 ">{text7}</span>
                 </div>
@@ -68,8 +68,8 @@ const Hero = ({
                 </div>
               </div>
             </div>
-            <div className=" max-w-[143px] w-full box-border min-h-[77px] opacity-[1] z-[2]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[-20px] p-[0px_0px_0px__0px]  ">
-              <div className=" max-w-[70px] w-full box-border min-h-[53px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-nowrap justify-center items-center gap-[10px] p-[10px_0px_10px__0px]  ">
+            <div className=" max-w-[124px] w-full box-border min-h-[77px] opacity-[1] z-[2]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[-20px] p-[0px_0px_0px__0px]  ">
+              <div className=" max-w-[70px] w-full box-border min-h-[33px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-nowrap justify-center items-center gap-[10px]  ">
                 <div className=" max-w-[50px] w-full box-border min-h-[33px] opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
                   <span className="c-100-146-0 ">{text9}</span>
                 </div>

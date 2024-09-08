@@ -12,7 +12,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="px-[10px] py-8 md:px-[100px]">
+    <div className="px-[10px] py-8 md:px-[100px] ">
       <Header />
       <Hero />
       <h1 className="font-[600] mx-[30px] py-4 text-[34px]">Top Categories </h1>

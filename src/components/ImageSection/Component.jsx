@@ -13,16 +13,15 @@ const ImageSection = ({
   text3 = texts.text3,
 }) => {
   return (
-    <div className="wrapper-div-1133 mt-[35px] relative m-auto p-[0px] box-border">
-      <div className=" w-[1242px] max-w-[100%] box-border min-h-[589px] opacity-[1] z-[1]  rotate-[0deg]   overflow-hidden flex flex-col flex-nowrap justify-start items-start gap-[21px] p-[70px_149px_70px__149px] rounded-tl-[9px] rounded-tr-[9px] rounded-br-[9px] rounded-bl-[9px]  ">
+    <div className="wrapper-div-1133  mt-[35px] relative m-auto p-[0px] box-border">
+      <div className=" w-full box-border min-h-[589px] opacity-[1] z-[1]  rotate-[0deg]   overflow-hidden flex flex-col flex-nowrap justify-start items-start gap-[21px] p-6 md:p-[70px_149px_70px__149px] rounded-tl-[9px] rounded-tr-[9px] rounded-br-[9px] rounded-bl-[9px]  ">
         <div
-          className="absolute  bg-transparent bg-center bg-no-repeat w-full h-full bg-cover nodeBg-1133 "
+          className="absolute  bg-[transparent] bg-center bg-no-repeat w-full h-full bg-cover nodeBg-1133 "
           id="id-bg-1133"
         >
-          {" "}
         </div>
-        <div className=" max-w-[944px] w-full box-border min-h-[106px] opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
-          <span className="craft-your-idea-1134-0 ">{text1}</span>
+        <div className=" w-[100%] box-border opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
+          <span className="craft-your-idea-1134-0 text-[40px] md:text-[55px] ">{text1}</span>
         </div>
         <div className=" max-w-[944px] w-full box-border min-h-[50px] opacity-[1] z-[1]  rotate-[0deg]   text-left leading-[0px]  ">
           <span className="whether-its-a-s-1135-0 ">{text2}</span>

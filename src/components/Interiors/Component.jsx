@@ -7,7 +7,7 @@ import images from "./data/images";
 const Interior = ({}) => {
   return (
     <div className="wrapper-div-159 relative m-auto p-[0px] box-border">
-      <div className=" bg-[white] grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1  w-full box-border min-h-[813px] opacity-[1] z-[1]  rotate-[0deg]   justify-center items-center gap-[19px] p-[0px_0px_0px__0px]  ">
+      <div className=" grid lg:grid-cols-3 xl:grid-cols-4 md:grid-cols-2 grid-cols-1 place-items-center  w-full box-border min-h-[813px] opacity-[1] z-[1]  rotate-[0deg]   justify-center items-center gap-[19px] p-[0px_0px_0px__0px]  ">
         {/* product 11 */}
         {images.map((item, key) => (
           <section className=" w-[305px] min-h-[403px] opacity-[1] z-[0]  rotate-[0deg]    ">
