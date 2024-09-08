@@ -22,9 +22,9 @@ const Hero = ({
 }) => {
   return (
     <div className="wrapper-div-124 px-4  md:px-2 relative m-auto p-[0px] box-border">
-      <div className=" max-w-[1242px] w-full  box-border min-h-[717px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-wrap justify-center items-center gap-[50px] p-[40px_0px_40px__0px]  ">
+      <div className=" max-w-[1242px] w-full  box-border min-h-[717px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-col md:flex-row justify-center items-center gap-[50px] p-[40px_0px_40px__0px]  ">
         {/* Frame 701 */}
-        <section className=" w-full  box-border min-h-[545px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[63px] p-[0px_0px_0px__0px]  ">
+        <div className=" w-full   box-border min-h-[545px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[63px] p-[0px_0px_0px__0px]  ">
           <div className=" w-full box-border opacity-[1] z-[0]  rotate-[0deg]   flex flex-col flex-nowrap justify-end items-start gap-[25px] p-[0px_0px_0px__0px]  ">
             <div className=" w-full box-border opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
               <span className="elevate-your-sp-127-0 text-[30px] md:text-[42px] ">{text1}</span>
@@ -81,8 +81,8 @@ const Hero = ({
               </div>
             </div>
           </div>
-        </section>
-        <div className=" w-[499px] max-w-[100%] min-h-[637px] opacity-[1] z-[1]  rotate-[0deg]   overflow-hidden rounded-tl-[29px] rounded-tr-[29px] rounded-br-[29px] rounded-bl-[29px]  ">
+        </div>
+        <div className=" w-[499px] md:w-[899px]  max-w-[100%] min-h-[637px] opacity-[1] z-[1]  rotate-[0deg]   overflow-hidden rounded-tl-[29px] rounded-tr-[29px] rounded-br-[29px] rounded-bl-[29px]  ">
           <img
             src={`${image1}`}
             className="absolute  bg-transparent bg-center bg-no-repeat w-full h-full bg-cover nodeBg-149 "

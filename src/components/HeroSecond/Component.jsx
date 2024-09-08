@@ -14,7 +14,7 @@ const HeroSecond = ({
 }) => {
   return (
     <div className="wrapper-div-152 px-3 relative m-auto box-border">
-      <div className=" max-w-[1242px] w-full box-border min-h-[666px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-wrap justify-center items-center gap-[10px] p-[0px_0px_0px__0px]  ">
+      <div className=" max-w-[1242px] bg-[yellow] w-full box-border opacity-[1] z-[1]  rotate-[0deg] flex-col md:flex-row   flex justify-center items-center gap-[10px] p-[0px_0px_0px__0px]  ">
         <div className=" w-[616px] max-w-[100%] min-h-[666px] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden rounded-tl-[29px] rounded-tr-[29px] rounded-br-[29px] rounded-bl-[29px]  ">
           <img
             src={`${image1}`}
@@ -23,7 +23,7 @@ const HeroSecond = ({
           />{" "}
         </div>
         {/* Frame 731 */}
-        <section className=" max-w-[616px] w-full box-border min-h-[660px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-col flex-nowrap justify-center items-start gap-[19px] p-[0px_0px_0px__0px]  ">
+        <div className=" max-w-[616px] w-full box-border min-h-[660px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-col flex-nowrap justify-center items-start gap-[19px] p-[0px_0px_0px__0px]  ">
           <div className=" w-[616px] max-w-[100%] min-h-[320.5px] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden rounded-tl-[29px] rounded-tr-[29px] rounded-br-[29px] rounded-bl-[29px]  ">
             <img
               src={`${image2}`}
@@ -38,7 +38,7 @@ const HeroSecond = ({
               alt="img 11 Image"
             />{" "}
           </div>
-        </section>
+        </div>
       </div>
     </div>
   );
